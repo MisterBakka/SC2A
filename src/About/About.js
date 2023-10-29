@@ -1,29 +1,17 @@
 import React from 'react';
-import Lottie from 'react-lottie';
+
 import '../About/About.css';
-import animationData from '../About/Lotties.json'
+
 
 import generali from '../assets/image/logo genrali.png';
 import alptis from '../assets/image/Logo_Alptis 1.png';
 import abeille from '../assets/image/card-abeille-dk 1.png';
 import swiss from '../assets/image/logo swiss life.png';
 import april from '../assets/image/logo_april 1.png';
-import sabri from '../assets/image/SABRI PNG 2.png';
+import sabri from '../../src/assets/image/SABRI PNG 2.png';
 import fleche from '../assets/icon/fleche.svg'
 
-const LottieAnimation = () => {
-  const defaultOptions = {
-    loop: true,
-    autoplay: true,
-    animationData: animationData, 
-  };
 
-  return (
-    <div id="firstlottie">
-      <Lottie options={defaultOptions} height={328} width="100%" />
-    </div>
-  );
-};
 
 
 const AssuranceLogos = () => {
@@ -114,7 +102,7 @@ const About = () => {
             <p>SC2A qu'est ce que c'est ?</p>
             <img src={fleche} alt="fleche cliquable" style={{ padding: '10px 0 5px 10px' }} />
           </a>
-          <LottieAnimation />
+
         </div>
       </section>
       <AssuranceLogos />

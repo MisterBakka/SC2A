@@ -1,4 +1,3 @@
-// App.js
 import React from 'react';
 import Header from '../src/Header/Header'; 
 import About from './About/About';
