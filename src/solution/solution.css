@@ -1,0 +1,266 @@
+
+.solutions {
+    margin: 308px 0 0;
+   }
+ 
+    
+   .listcards {
+     display: flex;
+     gap: 78px;
+     row-gap: 24px;
+     flex-wrap: wrap;
+     width: 100%;
+     margin-top: 23px;
+     margin-bottom: 40px;
+     justify-content: center;
+    
+   }
+   .cards {
+       width: 345px;
+       height: 259px;
+       flex: wrap;
+       align-items: center;
+       border-radius: 20px;
+       background: linear-gradient(180deg, #FFF 0%, rgba(217, 217, 217, 0.00) 100%);
+       backdrop-filter: blur(10px); /* Ajoute le flou */
+     
+      
+     
+   }
+   .ellips {
+     width: 34px;
+     height: 34px;
+     border-radius: 34px;
+     display: flex;
+     justify-content: center; /* Centrer horizontalement */
+     align-items: center;
+     margin: 31px 0px 8px 41px;
+     background: linear-gradient(180deg, #8ECAE6 0%, rgba(217, 217, 217, 0.00) 100%);
+     
+   }
+   .ellips1 {
+     width: 34px;
+     height: 34px;
+     border-radius: 34px;
+     display: flex;
+     justify-content: center; /* Centrer horizontalement */
+     align-items: center;
+     margin: 31px 0px 8px 41px;
+     background: linear-gradient(180deg, #B233DE 0%, rgba(217, 217, 217, 0.00) 100%);
+   }
+   .ellips2 {
+     width: 34px;
+     height: 34px;
+     border-radius: 34px;
+     display: flex;
+     justify-content: center; /* Centrer horizontalement */
+     align-items: center;
+     margin: 31px 0px 8px 41px;
+     background: linear-gradient(180deg, #21C950 0%, rgba(217, 217, 217, 0.00) 100%);
+   }
+   .ellips3 {
+     width: 34px;
+     height: 34px;
+     border-radius: 34px;
+     display: flex;
+     justify-content: center; /* Centrer horizontalement */
+     align-items: center;
+     margin: 31px 0px 8px 41px;
+     background: linear-gradient(180deg, #DC7878 0%, rgba(217, 217, 217, 0.00) 100%);
+   }
+   .ellips4 {
+     width: 34px;
+     height: 34px;
+     border-radius: 34px;
+     display: flex;
+     justify-content: center; /* Centrer horizontalement */
+     align-items: center;
+     margin: 31px 0px 8px 41px;
+     background: linear-gradient(180deg, #A37952 0%, rgba(217, 217, 217, 0.00) 100%);
+   }
+   .vector {
+     width: 16px;
+     height: 24px;
+    
+   }
+   .vector1 {
+     width: 22px;
+     height: 18px;
+   }
+   .vector2 {
+     width: 17.333px;
+     height: 21.667px;
+     flex-shrink: 0;
+   }
+   .vector3 {
+     width: 21.875px;
+     height: 21.875px;
+     flex-shrink: 0;
+   }
+   .vector4 {
+     width: 20px;
+     height: 22.365px;
+     flex-shrink: 0;
+   }
+ 
+   .ellips-container {
+     display: flex;
+     justify-content: flex-start;
+     align-items: center;
+     margin: 31px 0px 8px 41px;
+   }
+   
+   .ellips10,
+   .ellips20 {
+     width: 34px;
+     height: 34px;
+     border-radius: 34px;
+     margin-right: -8px;
+   }
+   
+   .ellips10 {
+     background: linear-gradient(180deg, #B233DE 0%, rgba(217, 217, 217, 0.00) 100%);
+   }
+   
+   .ellips20 {
+     background: linear-gradient(180deg, #21C950 0%, rgba(217, 217, 217, 0.00) 100%);
+   }
+   
+   .vector10,
+   .vector20 {
+     width: 16px;
+     height: 24px;
+     display: block;
+     margin: 5px 0px 0px 9px;
+   }
+   .vector6 {
+     width: 22px;
+     height: 20px;
+ 
+   }
+   .vector7 {
+     width: 22px;
+     height: 20px;
+ 
+   }
+   .vector8 {
+     width: 22px;
+     height: 20px;
+ 
+   }
+   .vector9 {
+     width: 22px;
+     height: 20px;
+ 
+   }
+   .vector11 {
+     width: 22px;
+     height: 20px;
+ 
+   }
+   .ellips6 {
+     width: 34px;
+     height: 34px;
+     border-radius: 34px;
+     background: linear-gradient(180deg, #E3D65B 0%, rgba(217, 217, 217, 0.00) 100%); 
+     display: flex;
+     justify-content: center; /* Centrer horizontalement */
+     align-items: center;
+     margin: 31px 0px 8px 41px;
+   }
+ 
+ 
+   .ellips8 {
+     width: 34px;
+     height: 34px;
+     border-radius: 34px;
+     background: linear-gradient(180deg, #E3D65B 0%, rgba(217, 217, 217, 0.00) 100%); 
+     display: flex;
+     justify-content: center; /* Centrer horizontalement */
+     align-items: center;
+     margin: 31px 0px 8px 41px;
+   } 
+   .ellips9 {
+     width: 34px;
+     height: 34px;
+     border-radius: 34px;
+     background: linear-gradient(180deg, #A37952 0%, rgba(217, 217, 217, 0.00) 100%);
+     display: flex;
+     justify-content: center; /* Centrer horizontalement */
+     align-items: center;
+     margin: 31px 0px 8px 41px;
+   }
+   .ellips11 {
+     width: 34px;
+     height: 34px;
+     border-radius: 35.545px;
+     background: linear-gradient(180deg, #2150C9 0%, rgba(217, 217, 217, 0.00) 100%);
+     display: flex;
+     justify-content: center; /* Centrer horizontalement */
+     align-items: center;
+     margin: 31px 0px 8px 41px;
+   }
+   
+   .p-textcards {
+     width: 245px;
+     height: 109px;
+     color: #000;
+     font-size: 15px;
+     font-family: Myriad Pro;
+     padding: 7Px 0 0 0;
+     margin: 0 0 0 22px;
+   }
+   @media (max-width: 900px) {
+    .solutions {
+      margin: 100px 0; /* Ajuster la marge pour l'en-tête sur les écrans mobiles */
+    }
+  
+    .listcards {
+      gap: 16px; /* Réduire l'espacement entre les cartes */
+    }
+  
+    .cards {
+        width: 80%;
+     
+      height: auto; /* Ajuster la hauteur automatiquement en fonction du contenu */
+    }
+  
+    .ellips {
+      /* Styles pour les ellipses sur les écrans mobiles ici... */
+    }
+  
+    /* Ajoutez des styles pour d'autres ellipses et vecteurs sur les écrans mobiles ici... */
+  
+    .p-textcards {
+      width: 100%; /* Ajuster la largeur pour qu'elle occupe toute la largeur de la carte */
+      margin: 0; /* Ajuster la marge à gauche pour centrer le texte */
+    }
+  }
+  
+  /* Media Queries pour les écrans de taille moyenne (par exemple, tablettes) */
+  
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .solutions {
+      margin: 150px 0; /* Ajuster la marge pour l'en-tête sur les tablettes */
+    }
+  
+    .listcards {
+      gap: 24px; /* Réduire l'espacement entre les cartes sur les tablettes */
+    }
+  
+    .cards {
+      width: 48%; /* Ajuster la largeur pour deux cartes par ligne sur les tablettes */
+      height: auto; /* Ajuster la hauteur automatiquement en fonction du contenu */
+    }
+  
+    .ellips {
+      /* Styles pour les ellipses sur les tablettes ici... */
+    }
+  
+    /* Ajoutez des styles pour d'autres ellipses et vecteurs sur les tablettes ici... */
+  
+    .p-textcards {
+      width: 100%; /* Ajuster la largeur pour qu'elle occupe toute la largeur de la carte */
+      margin: 0; /* Ajuster la marge à gauche pour centrer le texte */
+    }
+  }

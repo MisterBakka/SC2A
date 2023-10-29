@@ -1,0 +1,38 @@
+/* Styles pour les écrans de bureau (taille d'écran supérieure à 768px) */
+.ou {
+    /* Styles pour les écrans de bureau */
+  }
+  
+  .ou2 {
+   
+    margin-bottom: 100px;
+  }
+  
+  .localisation {
+    display: flex;
+    flex-direction: column; /* Empilez les éléments verticalement */
+    align-items: center; /* Centrez les éléments horizontalement */
+    padding: 0 20px; /* Ajoutez 20px d'espace à gauche et à droite */
+    box-sizing: border-box; /* Inclut la largeur de la marge dans la largeur totale */
+  }
+  
+  /* Styles pour les écrans mobiles (taille d'écran inférieure ou égale à 768px) */
+  @media (max-width: 768px) {
+
+    .ou2 {
+    
+      margin-bottom: 20px; 
+    }
+  
+    .localisation {
+        padding: 0; 
+        height: 300px;
+      }
+  }
+ 
+  
+  
+  
+  
+  
+  
