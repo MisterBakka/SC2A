@@ -72,9 +72,10 @@ function Contact() {
             required
           >
             <option value="">Sélectionnez un sujet</option>
-            <option value="Sujet 1">Sujet 1</option>
-            <option value="Sujet 2">Sujet 2</option>
-            <option value="Sujet 3">Sujet 3</option>
+            <option value="Sujet 1">Particulier</option>
+            <option value="Sujet 2">Entreprise</option>
+            <option value="Sujet 3">TNS et prefessions libérales</option>
+            
           </select>
         </label>
 

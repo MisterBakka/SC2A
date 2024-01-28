@@ -6,11 +6,9 @@ const Trouver = () => {
     <section className="ou" id="trouver">
       <h1>Où nous trouver ?</h1>
       <div className="ou2">
-        <h2>
-          21 rue Victor Hugo
-          <br />
-          21000 Dijon
-        </h2>
+        <p>
+        Situés au cœur de Dijon, à quelques minutes de la gare nous aurons à plaisir à vous accueillir au <strong>21 Avenue Victor Hugo 21000 Dijon</strong> dans nos bureaux. <br />Du Lundi au vendredi de 9h à 12h 30 et de 13h30 à 18h30 ainsi que le week-end sur rendez-vous.
+        </p>
       </div>
       <section className="localisation">
         <iframe

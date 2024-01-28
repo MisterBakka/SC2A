@@ -10,7 +10,7 @@
     position: sticky;
     top: 0px;
     z-index: 9999;
-    transition: top 0.2s ease;
+    transition: top 0.5s ease;
   }
   
   .logo {
@@ -21,6 +21,7 @@
   }
   
   .menu {
+    background-color: transparent;
     list-style-type: none;
     display: flex;
     flex-direction: row;
@@ -74,7 +75,7 @@
     border: 2.3px solid #D68F07;
   }
 
-@media screen and (max-width: 900px) {
+ @media screen and (max-width: 900px) {
   
     .header {
       flex-direction: column;

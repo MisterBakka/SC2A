@@ -1,10 +1,31 @@
-import React from 'react';
-import '../Header/Header.css'; 
+// Header.js
+import React, { useState, useEffect } from 'react';
+import './Header.css';
 import SC2A from '../assets/Logo/logo 1.png';
-function Header() {
-  
+
+const Header = () => {
+  const [isHeaderVisible, setHeaderVisible] = useState(true);
+  const [prevScrollPos, setPrevScrollPos] = useState(window.pageYOffset);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const currentScrollPos = window.pageYOffset;
+      const isScrolledDown = prevScrollPos < currentScrollPos;
+
+      setHeaderVisible(!isScrolledDown || currentScrollPos < 10); // Adjust the threshold as needed
+
+      setPrevScrollPos(currentScrollPos);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, [prevScrollPos]);
+
   return (
-    <header className="header">
+    <header className="header" style={{ top: isHeaderVisible ? '0' : '-170px' }}>
       <div>
         <a href="#index.html">
           <img className="logo" src={SC2A} alt="SC2A" />
@@ -36,6 +57,6 @@ function Header() {
       </nav>
     </header>
   );
-}
+};
 
 export default Header;

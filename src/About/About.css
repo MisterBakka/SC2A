@@ -1,238 +1,251 @@
 /* Placez le code CSS dans le fichier Abou.css */
 #firstlottie {
-    position: absolute;
-    height: 328px;
-    left: 832px;
-    top: 280px;
-    width: 40%;
+  position: absolute;
+  height: 328px;
+  left: 832px;
+  top: 280px;
+  width: 40%;
+
+}
+
+.textdescription {
+  width: 45%;
+}
+.textdescription-sabri {
+  width: 80%;
+}
+.assu1 {
+  width: 101px;
+  height: 81px;
+  flex-shrink: 0;
+}
+
+.assu2 {
+  width: 101.029px;
+  height: 81px;
+  flex-shrink: 0;
+}
+
+.assu3 {
+  width: 101.029px;
+  height: 76.76px;
+  flex-shrink: 0;
+}
+
+.assu4 {
+  width: 152.043px;
+  height: 93px;
+  flex-shrink: 0;
+}
+
+.assu5 {
+  width: 148px;
+  height: 39px;
+  flex-shrink: 0;
+  padding-top: 30px;
+}
+
+.assu6 {
+  max-width: 190px;
+  height: 100px;
  
-  }
-  
-  .assu1 {
-    width: 101px;
-    height: 81px;
-    flex-shrink: 0;
-  }
-  
-  .assu2 {
-    width: 101.029px;
-    height: 81px;
-    flex-shrink: 0;
-  }
-  
-  .assu3 {
-    width: 101.029px;
-    height: 76.76px;
-    flex-shrink: 0;
-  }
-  
-  .assu4 {
-    width: 152.043px;
-    height: 93px;
-    flex-shrink: 0;
-  }
-  
-  .assu5 {
-    width: 148px;
-    height: 39px;
-    flex-shrink: 0;
-    padding-top: 30px;
-  }
-  
-  .cercle {
-    width: 200px;
-    height: 200px;
-    overflow: hidden;
+
  
-    border-radius: 461px;
-    background: #D9D9D9;
-  }
-  
-  .cercle-image {
+}
+
+.cercle {
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+
+  border-radius: 461px;
+  background: #D9D9D9;
+}
+
+.cercle-image {
+  display: flex;
+  flex-direction: column;
+  padding: 0 50px 0 0;
+}
+
+.cercle-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.imgsabri {
+  width: 461px;
+  height: 461px;
+}
+
+.sabri {
+  text-align: center;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+  text-align: center;
+  font-size: 20px;
+  font-family: Futura;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.btn-contact {
+  text-decoration: none;
+  width: 145px;
+  height: 53px;
+  background-color: #D68F07;
+  border-radius: 20px;
+  margin: 50px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 15px;
+  color: black;
+}
+
+.p-btn {
+  width: 100%;
+  font-size: 20px;
+  font-family: Futura;
+  font-weight: 500;
+  line-height: 19px;
+  color: black;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.btn-question {
+  display: flex;
+  flex-direction: row;
+  gap: 5%;
+}
+
+.question {
+  display: flex;
+  flex-direction: row;
+  padding: 45px 0px 0px 0px;
+  text-decoration: none;
+  color: black;
+  font-family: 'Futura';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 27px;
+}
+
+.question:hover {
+  color: #D68F07;
+}
+
+.hover-effect {
+  transition: transform 0.9s;
+}
+
+.hover-effect:hover {
+  transform: scale(1.1);
+  color: #D68F07;
+}
+
+.text1 {
+  height: 269px;
+  width: 583px;
+  left: 122px;
+  top: 1373px;
+}
+
+.logo-assurance {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 170px;
+}
+
+/***description**/
+.description2 {
+  margin: 150px 0px 0 0;
+}
+
+.textsabriimg {
+  display: flex;
+  flex-direction: row;
+}
+
+.photo-nom {
+  display: flex;
+  flex-direction: column;
+}
+/* Styles pour les appareils mobiles (par exemple, pour une largeur d'écran maximale de 768px) */
+@media (max-width: 900px) {
+  .lotties {
     display: flex;
     flex-direction: column;
-    padding: 0 50px 0 0;
+    align-items: center; /* Centrez les éléments horizontalement */
   }
-  
-  .cercle-img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+
+  #firstlottie {
+    display: none; /* Masquez la première animation Lottie */
   }
-  
-  .imgsabri {
-    width: 461px;
-    height: 461px;
+
+  .question {
+    display: none; /* Masquez la section des questions */
   }
-  
-  .sabri {
-    text-align: center;
-  }
-  
-  .button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #000;
-    text-align: center;
-    font-size: 20px;
-    font-family: Futura;
-    font-weight: 500;
-    text-decoration: none;
-  }
-  
+
   .btn-contact {
-    text-decoration: none;
-    width: 145px;
-    height: 53px;
-    background-color: #D68F07;
-    border-radius: 20px;
-    margin: 50px 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 5px 15px;
-    color: black;
+    width: 150px; /* Ajustez la largeur du bouton de contact */
+    height: 50px; /* Ajustez la hauteur du bouton de contact */
   }
-  
+
   .p-btn {
     width: 100%;
-    font-size: 20px;
+    height: 100%;
+    color: #000;
+    text-align: center;
     font-family: Futura;
+    font-size: 15px; /* Ajustez la taille de la police du bouton */
     font-weight: 500;
-    line-height: 19px;
-    color: black;
-    cursor: pointer;
-    text-decoration: none;
+    line-height: normal;
   }
-  
-  .btn-question {
-    display: flex;
-    flex-direction: row;
-    gap: 5%;
-  }
-  
-  .question {
-    display: flex;
-    flex-direction: row;
-    padding: 45px 0px 0px 0px;
-    text-decoration: none;
-    color: black;
-    font-family: 'Futura';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 27px;
-  }
-  
-  .question:hover {
-    color: #D68F07;
-  }
-  
-  .hover-effect {
-    transition: transform 0.9s;
-  }
-  
-  .hover-effect:hover {
-    transform: scale(1.1);
-    color: #D68F07;
-  }
-  
-  .text1 {
-    height: 269px;
-    width: 583px;
-    left: 122px;
-    top: 1373px;
-  }
-  
+
   .logo-assurance {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 170px;
-  }
+      flex-wrap: wrap;
+    }
   
-  /***description**/
-  .description2 {
-    margin: 150px 0px 0 0;
-  }
+    .logo-assurance .assu1,
+    .logo-assurance .assu2,
+    .logo-assurance .assu3 {
+      width: 33.33%; /* Chaque logo occupe 33.33% de la largeur sur la première ligne */
+    }
   
+    .logo-assurance .assu4,
+    .logo-assurance .assu5 {
+      width: 50%; /* Chaque logo occupe 50% de la largeur sur la deuxième ligne */
+    }
   .textsabriimg {
-    display: flex;
-    flex-direction: row;
+    display: block;
   }
-  
-  .photo-nom {
-    display: flex;
-    flex-direction: column;
-  }
-  /* Styles pour les appareils mobiles (par exemple, pour une largeur d'écran maximale de 768px) */
-  @media (max-width: 900px) {
-    .lotties {
-      display: flex;
-      flex-direction: column;
-      align-items: center; /* Centrez les éléments horizontalement */
-    }
-  
-    #firstlottie {
-      display: none; /* Masquez la première animation Lottie */
-    }
-  
-    .question {
-      display: none; /* Masquez la section des questions */
-    }
-  
-    .btn-contact {
-      width: 150px; /* Ajustez la largeur du bouton de contact */
-      height: 50px; /* Ajustez la hauteur du bouton de contact */
-    }
-  
-    .p-btn {
+  .imgsabri {
       width: 100%;
-      height: 100%;
-      color: #000;
-      text-align: center;
-      font-family: Futura;
-      font-size: 15px; /* Ajustez la taille de la police du bouton */
-      font-weight: 500;
-      line-height: normal;
+      height: auto; /* Pour conserver les proportions de l'image */
+      border-radius: 20px; /* Ajoutez la courbure de votre choix */
     }
-  
-    .logo-assurance {
-        flex-wrap: wrap;
-      }
-    
-      .logo-assurance .assu1,
-      .logo-assurance .assu2,
-      .logo-assurance .assu3 {
-        width: 33.33%; /* Chaque logo occupe 33.33% de la largeur sur la première ligne */
-      }
-    
-      .logo-assurance .assu4,
-      .logo-assurance .assu5 {
-        width: 50%; /* Chaque logo occupe 50% de la largeur sur la deuxième ligne */
-      }
-    .textsabriimg {
-      display: block;
+
+    .cercle {
+      max-width: 80%; /* Pour qu'il s'adapte à la largeur de l'écran sur les mobiles */
     }
-    .imgsabri {
-        width: 100%;
-        height: auto; /* Pour conserver les proportions de l'image */
-        border-radius: 20px; /* Ajoutez la courbure de votre choix */
-      }
-  
-      .cercle {
-        max-width: 80%; /* Pour qu'il s'adapte à la largeur de l'écran sur les mobiles */
-      }
-  
-    .cercle-image {
-      display: block;
-      text-align: center;
-    }
-  
-    .cercle-img {
-      display: block;
-      width: 100%;
-      height: 100%;
-    }
+
+  .cercle-image {
+    display: block;
+    text-align: center;
   }
-  
+
+  .cercle-img {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+}
